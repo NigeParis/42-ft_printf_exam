@@ -6,7 +6,7 @@
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/20 16:28:14 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/05/20 17:38:36 by nrobinso         ###   ########.fr       */
+/*   Updated: 2024/05/22 10:51:36 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -113,7 +113,7 @@ int main(int argc, char *argv[])
 	int nbr;
 	int res = 0;
 	
-	nbr = (int)atoi(argv[1]);
+	nbr = (int)atoi(argv[argc -1]);
 	res = ft_printf("\nnbr %d, %s %x \n", nbr, argv[2],  nbr);
 	ft_putnbr(res, 10);
 	res = printf("\nnbr %d, %s %x \n", nbr,  argv[2], nbr);

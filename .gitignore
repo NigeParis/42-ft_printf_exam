@@ -1,6 +1,0 @@
-# ignore ALL .o files
-*.o
-# ignore file exec
-out
-# ignore file .DS_Store
-.DS_Store
