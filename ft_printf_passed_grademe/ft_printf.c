@@ -6,7 +6,7 @@
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/22 14:12:02 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/05/22 18:56:20 by nrobinso         ###   ########.fr       */
+/*   Updated: 2024/05/22 17:25:48 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -111,16 +111,3 @@ int	ft_printf(const char *str, ...)
 
 }
 
-int	main(int argc, char *argv[])
-{
-	int nb = 0;
-	int nbr = atoi(argv[argc-1]);
-	int nbr2 = atoi(argv[argc-2]);
-
-	nb = ft_printf("%s %x %d %%",argv[1], nbr2, nbr);	
-	printf("\nnb_printed :%d\n",nb);
-
-	   nb = printf("%s %x %d %%",argv[1], nbr2, nbr);	
-	printf("\nnb_printed :%d\n",nb);
-	return (0);
-	}
