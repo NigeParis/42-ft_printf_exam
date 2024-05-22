@@ -6,7 +6,7 @@
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/20 10:18:34 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/05/20 15:15:44 by nrobinso         ###   ########.fr       */
+/*   Updated: 2024/05/20 15:45:43 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -95,7 +95,7 @@ int	ft_printf(const char *str, ...)
 			}
 			if (str[i] == 'x')
 			{
-				nbr_printed += ft_putnbr(va_arg (input, long long int), 16);
+				nbr_printed += ft_putnbr(va_arg (input, long long int), 2);
 			}		
 		}
 		else

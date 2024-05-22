@@ -6,7 +6,7 @@
 /*   By: nrobinso <nrobinso@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/22 08:57:33 by nrobinso          #+#    #+#             */
-/*   Updated: 2024/05/22 10:37:38 by nrobinso         ###   ########.fr       */
+/*   Updated: 2024/05/22 10:46:41 by nrobinso         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -115,8 +115,6 @@ int	ft_printf(const char *str, ...)
 
 int	main(int argc, char *argv[])
 {
-	int	nb_printed = 0;
-	char str[] = "decimal:";
 	int nb = 0;
 	int nbr = atoi(argv[argc-1]);
 
